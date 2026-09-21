@@ -49,7 +49,6 @@
     .font-heading {
       font-family: 'Space Grotesk', sans-serif;
     }
-    /* Neo-brutalist button hover micro-interactions */
     .brutal-btn {
       transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -88,19 +87,15 @@
   </div>
 
   <header class="bg-brandRed text-white border-b-4 border-brandDark px-4 py-12 md:py-16 relative overflow-hidden">
-    <!-- Pop Art geometric accents -->
     <div class="absolute -right-12 -top-12 w-48 h-48 rounded-full border-4 border-brandDark bg-brandYellow opacity-20 pointer-events-none"></div>
     <div class="absolute left-8 -bottom-10 w-28 h-28 border-4 border-brandDark bg-white rotate-12 opacity-15 pointer-events-none"></div>
 
     <div class="max-w-4xl mx-auto text-center relative z-10">
-      
-      <!-- Rock On & Badge Tag -->
       <div class="inline-flex items-center gap-2 bg-brandYellow text-brandDark border-2 border-brandDark font-heading font-black text-xs md:text-sm px-4 py-1.5 rounded-full shadow-brutal-sm -rotate-2 mb-5 uppercase tracking-wider">
         <span>🤘 A-List Party of Practical Thinkers</span>
         <span class="bg-brandDark text-white px-2 py-0.5 rounded-full text-[10px]">Zero Politics</span>
       </div>
 
-      <!-- Main Logo Title -->
       <h1 class="text-4xl sm:text-6xl md:text-7xl font-heading font-black tracking-tight uppercase leading-none drop-shadow-sm">
         Aam Janta <br class="sm:hidden" />
         <span class="text-brandYellow underline decoration-brandDark decoration-wavy decoration-2">Congress</span>
@@ -110,7 +105,6 @@
         The Citizens' Unofficial Think-Tank. Generating high-impact urban blueprints, civic innovations, and cheerful solutions for India that the world can learn from.
       </p>
 
-      <!-- Status Pill Guarantee -->
       <div class="mt-6 inline-block bg-white text-brandDark border-2 border-brandDark rounded-lg px-4 py-2 font-mono text-xs sm:text-sm shadow-brutal-sm">
         ⚡ <strong>Promise Kept:</strong> Built the website before 1000 members. First promise over-delivered.
       </div>
@@ -119,7 +113,7 @@
 
   <main class="flex-grow max-w-5xl mx-auto px-4 py-10 sm:py-14 w-full">
 
-    <section class="bg-white border-3 border-brandDark p-6 sm:p-8 rounded-xl shadow-brutal mb-12 border-2">
+    <section class="bg-white border-2 border-brandDark p-6 sm:p-8 rounded-xl shadow-brutal mb-12">
       <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div class="flex-1">
           <span class="text-xs uppercase font-heading font-black tracking-widest text-brandRed bg-red-50 px-2.5 py-1 border border-brandRed rounded inline-block mb-3">
@@ -129,7 +123,7 @@
             "Governments run nations. Citizens experience the daily details."
           </h2>
           <p class="mt-2 text-gray-700 leading-relaxed text-sm sm:text-base">
-            We don't complain; we design. We crowdsource low-cost, world-class civic prototypes—from smarter zebra crossings to digital forest registers—free of charge for our city planners, municipal leaders, and curious citizens worldwide.
+            We don't complain; we design. We crowdsource low-cost, world-class civic prototypes—from smarter zebra crossings to digital entitlement engines—free of charge for our city planners, municipal leaders, and curious citizens worldwide.
           </p>
         </div>
         <div class="bg-brandCream border-2 border-brandDark p-4 rounded-lg shadow-brutal-sm text-center min-w-[200px] w-full md:w-auto">
@@ -156,11 +150,11 @@
           <button class="filter-btn active bg-brandDark text-white border-2 border-brandDark px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider shadow-brutal-sm" data-category="all">
             All Ideas
           </button>
-          <button class="filter-btn bg-white text-brandDark border-2 border-brandDark px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider hover:bg-yellow-100 transition-colors" data-category="mobility">
-            Mobility
-          </button>
           <button class="filter-btn bg-white text-brandDark border-2 border-brandDark px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider hover:bg-yellow-100 transition-colors" data-category="tech">
             Civic Tech
+          </button>
+          <button class="filter-btn bg-white text-brandDark border-2 border-brandDark px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider hover:bg-yellow-100 transition-colors" data-category="mobility">
+            Mobility
           </button>
           <button class="filter-btn bg-white text-brandDark border-2 border-brandDark px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider hover:bg-yellow-100 transition-colors" data-category="green">
             Ecology
@@ -170,34 +164,34 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="blueprintsGrid">
 
-        <!-- Blueprint: Proactive Entitlement & Redressal Platform -->
-<div class="idea-card" data-category="tech">
-  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-    <span class="category" style="background: #e0f2fe; color: #0369a1;">Civic Tech & DPI</span>
-    <span style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; color: #0284c7;">Next-Gen Upgrade</span>
-  </div>
-  <h3 class="idea-title">Beyond myScheme: The Proactive Citizen Entitlement & Redressal Engine</h3>
-  
-  <p class="idea-details">
-    <strong>The Problem:</strong> Existing platforms require manual questionnaire input and external applications, while citizens excluded due to clerical data errors have no direct technical recourse.
-  </p>
-  
-  <p class="idea-details">
-    <strong>The Recommendation:</strong>
-    <br/>• <strong>Zero-Form Dynamic Matching:</strong> Aadhaar authentication automatically reads verified land, age, and ration records to unlock eligible schemes without questionnaires.
-    <br/>• <strong>One-Click Omission Redressal:</strong> An integrated "Claim Omission" button that highlights the exact database discrepancy (e.g., outdated tehsil record) and routes an SLA-bound ticket to the data custodian.
-    <br/>• <strong>Unified Passbook & GiveItUp Switch:</strong> Track all incoming DBTs in one ledger and voluntarily surrender subsidies with one tap as income grows.
-  </p>
-  
-  <p class="idea-details">
-    <strong>Global & Indian Parallel:</strong> Merging the proactive delivery of Estonia’s <em>X-Road</em> with the scale of India’s <em>DigiLocker</em> and <em>DBT Bharat</em>.
-  </p>
-  
-  <div class="fun-take">
-    💡 <em>Optimist Take:</em> If shopping apps know what groceries we need before we do, public systems should easily know if we qualify for a farmer subsidy without making us submit six notarized photocopies.
-  </div>
-</div>
-        <!-- Card 2 -->
+        <!-- Card 1: Proactive Entitlement & Redressal Platform (Fixed styling) -->
+        <article class="blueprint-card brutal-card bg-white border-2 border-brandDark rounded-xl p-6 shadow-brutal flex flex-col justify-between" data-category="tech">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="bg-blue-100 text-blue-800 font-mono text-[11px] font-bold px-2.5 py-0.5 rounded border border-blue-400 uppercase">
+                Civic Tech & DPI
+              </span>
+              <button class="upvote-btn flex items-center gap-1.5 text-xs font-bold bg-brandCream border border-brandDark px-2.5 py-1 rounded-md hover:bg-brandYellow transition-colors" data-votes="142">
+                <span>🔺 Upvote</span>
+                <span class="vote-count font-mono">142</span>
+              </button>
+            </div>
+            <h3 class="text-xl font-heading font-extrabold text-brandDark mb-2">
+              Beyond myScheme: Proactive Entitlement Engine
+            </h3>
+            <p class="text-sm text-gray-700 mb-3">
+              <strong>The Recommendation:</strong> Move from manual questionnaires to an auto-entitlement engine. Secure identity authentication cross-queries verified registries (land, tax, ration) to show what you qualify for with zero paperwork. Includes a 1-click <em>Claim Discrepancy</em> button with a 15-day SLA review, and a universal <em>GiveItUp</em> switch to exit subsidies as income grows.
+            </p>
+            <p class="text-xs text-gray-500 font-medium mb-4">
+              🌐 <strong>Global Benchmark:</strong> Estonia’s proactive X-Road state meets India Stack.
+            </p>
+          </div>
+          <div class="bg-yellow-50 border-l-4 border-brandYellow p-3 rounded-r-md text-xs text-gray-800 italic">
+            💡 <strong>Optimist Take:</strong> If shopping apps know our shoe size instantly, public portals can certainly know if we qualify for a farmer stipend.
+          </div>
+        </article>
+
+        <!-- Card 2: Unified Digging Ledger -->
         <article class="blueprint-card brutal-card bg-white border-2 border-brandDark rounded-xl p-6 shadow-brutal flex flex-col justify-between" data-category="tech">
           <div>
             <div class="flex items-center justify-between mb-3">
@@ -224,7 +218,7 @@
           </div>
         </article>
 
-        <!-- Card 3 -->
+        <!-- Card 3: Urban Tree QR Tags -->
         <article class="blueprint-card brutal-card bg-white border-2 border-brandDark rounded-xl p-6 shadow-brutal flex flex-col justify-between" data-category="green">
           <div>
             <div class="flex items-center justify-between mb-3">
@@ -251,8 +245,8 @@
           </div>
         </article>
 
-        <!-- Card 4 -->
-        <article class="blueprint-card brutal-card bg-white border-2 border-brandDark rounded-xl p-6 shadow-brutal flex flex-col justify-between" data-category="tech">
+        <!-- Card 4: UPI-Enabled Public Water & Clean Restrooms -->
+        <article class="blueprint-card brutal-card bg-white border-2 border-brandDark rounded-xl p-6 shadow-brutal flex flex-col justify-between" data-category="mobility">
           <div>
             <div class="flex items-center justify-between mb-3">
               <span class="bg-amber-100 text-amber-800 font-mono text-[11px] font-bold px-2.5 py-0.5 rounded border border-amber-400 uppercase">
@@ -281,7 +275,8 @@
       </div>
     </section>
 
-    <section class="cta-box bg-brandYellow border-3 border-brandDark rounded-xl p-6 sm:p-10 shadow-brutal border-2 mb-12 relative overflow-hidden">
+    <!-- Submission Form -->
+    <section class="cta-box bg-brandYellow border-2 border-brandDark rounded-xl p-6 sm:p-10 shadow-brutal mb-12 relative overflow-hidden">
       <div class="max-w-2xl mx-auto text-center">
         
         <span class="inline-block bg-brandDark text-brandYellow text-xs font-heading font-extrabold px-3 py-1 rounded-md uppercase tracking-wider mb-2">
@@ -296,7 +291,6 @@
           Seen a brilliant street layout abroad? An ingenious recycling hack in your hometown? Drop it in. We compile the best into actionable policy dossiers sent to relevant civic leaders.
         </p>
 
-        <!-- Formwired with AJAX Formsubmit -->
         <form id="ideaForm" class="flex flex-col sm:flex-row items-stretch justify-center gap-3 max-w-xl mx-auto">
           <input 
             type="email" 
@@ -320,11 +314,11 @@
           </button>
         </form>
 
-        <!-- Dynamic Feedback Message Box -->
         <div id="formStatus" class="mt-4 hidden p-3 rounded-lg border-2 border-brandDark text-xs sm:text-sm font-bold"></div>
       </div>
     </section>
 
+    <!-- Social Connection -->
     <section class="bg-brandCream border-2 border-brandDark rounded-xl p-6 shadow-brutal-sm flex flex-col sm:flex-row items-center justify-between gap-4">
       <div>
         <h3 class="font-heading font-extrabold text-lg text-brandDark">Follow the R&D on Instagram</h3>
@@ -344,7 +338,7 @@
 
   </main>
 
-  <footer class="bg-white border-t-3 border-brandDark py-8 px-4 text-center border-t-2 mt-auto">
+  <footer class="bg-white border-t-2 border-brandDark py-8 px-4 text-center mt-auto">
     <div class="max-w-4xl mx-auto">
       <div class="font-heading font-black text-lg uppercase tracking-tight text-brandDark">
         Aam Janta Congress
@@ -358,7 +352,6 @@
     </div>
   </footer>
 
-  <!-- Notification Toast -->
   <div id="toast" class="fixed bottom-6 right-6 bg-brandDark text-brandCream border-2 border-white px-4 py-2.5 rounded-lg shadow-brutal font-mono text-xs hidden z-50">
     Link copied to clipboard!
   </div>
@@ -366,7 +359,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       
-      // 1. Interactive Tag Filtering
+      // 1. Tag Filtering
       const filterButtons = document.querySelectorAll(".filter-btn");
       const cards = document.querySelectorAll(".blueprint-card");
 
@@ -391,7 +384,7 @@
         });
       });
 
-      // 2. Blueprint Upvoting Micro-interaction
+      // 2. Upvote Micro-interaction
       const upvoteButtons = document.querySelectorAll(".upvote-btn");
       upvoteButtons.forEach(btn => {
         let voted = false;
@@ -417,7 +410,7 @@
         });
       });
 
-      // 3. AJAX Submission directly to your Gmail
+      // 3. Form Submission to Gmail
       const form = document.getElementById("ideaForm");
       const statusText = document.getElementById("formStatus");
       const submitBtn = document.getElementById("submitBtn");
@@ -457,7 +450,7 @@
         }
       });
 
-      // 4. Share Link Copy Interaction
+      // 4. Share Link Copy
       const copyBtn = document.getElementById("copySiteLinkBtn");
       const toast = document.getElementById("toast");
 
